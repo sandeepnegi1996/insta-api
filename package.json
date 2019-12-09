@@ -1,0 +1,26 @@
+{
+  "name": "insta-api",
+  "version": "1.0.0",
+  "description": "1. Database\r 2. Node js Api",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandeepnegi1996/insta-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sandeepnegi1996/insta-api/issues"
+  },
+  "homepage": "https://github.com/sandeepnegi1996/insta-api#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  }
+}
