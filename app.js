@@ -20,9 +20,9 @@ app.post('/api/login', (req, res) => {
     };
 
 
-    console.log(userObj);
+    console.log(loginObj);
 
-    res.send(userObj);
+    res.send(loginObj);
 
 });
 
@@ -32,9 +32,9 @@ app.post('/api/signup', (req, res) => {
     //password
 
     const signupObj = {
-        user: req.body.user,
+        user_signup: req.body.user,
         email: req.body.email,
-        password: req.body.password
+        password: req.body.pass
 
     };
     console.log(signupObj);
